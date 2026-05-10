@@ -291,7 +291,7 @@ function Hero({ variant, photo }) {
             <span className="value">Panoptic — web & film</span>
           </div>
           <div className="hero__meta-row">
-            <span className="label">Filed</span>
+            <span className="label">Date</span>
             <span className="value">May 2026</span>
           </div>
         </div>
