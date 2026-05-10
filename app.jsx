@@ -533,28 +533,28 @@ function Ticketing() {
     <section className="section section--parchment" id="ticketing" data-screen-label="03 Ticketing">
       <div className="section__inner">
         <div className="section__head reveal">
-          <div className="label"><span className="num">03</span>Ticketing experience</div>
-          <h2>I built the bridge to your <em>Donkey webcams.</em></h2>
+          <div className="label"><span className="num">03</span>Membership &amp; ticketing</div>
+          <h2>Turning visitors into <em>long-term members.</em></h2>
         </div>
         <p className="ticketing__lede reveal">
-          At Panoptic, we have built our own ticketing platform and used it to ticket festivals and events across the country. For Clovelly specifically, I personally built the integration between your current ticket provider and the Donkey webcams — so members can access the exclusive feeds.
+          At Panoptic, we built our own ticketing platform and used it across festivals and events nationwide. For Clovelly, I've worked closely with your existing provider — and I understand the infrastructure well enough to know where membership programmes win or lose people.
         </p>
         <div className="ticketing__body">
           <div className="ticketing__copy reveal">
             <p>
-              Ticketing is the unglamorous infrastructure that pays for everything else. I've spent enough time inside it to know where it breaks, where it scales, and where small interface decisions cost real revenue.
+              Annual membership is currently a single-tier pass. There's room to do considerably more — layering in perks that reward return visits and give members a genuine sense of belonging to the estate, not just access to it.
             </p>
             <p>
-              The webcam integration is a small piece of work, but it's a useful template: a member-only digital perk, hooked to an existing ticket purchase, with no extra account for the visitor to manage.
+              The technical groundwork is already there. I've built integrations between your ticket provider and member-only digital features, and I know how to extend that pattern without adding friction for visitors.
             </p>
             <ul className="ticketing__list">
-              <li>Built the Panoptic ticketing platform with the team — used at festivals nationwide.</li>
-              <li>Designed and shipped the Clovelly ticket-provider → webcam integration end to end.</li>
-              <li>Comfortable with the operations side: refunds, capacity management, on-the-day support.</li>
+              <li>Built the Panoptic ticketing platform — used at events and festivals across the country.</li>
+              <li>Designed and shipped Clovelly's ticket-provider integration for exclusive member digital perks.</li>
+              <li>Experienced with the full operations layer: onboarding flows, renewals, capacity management, on-the-day support.</li>
             </ul>
           </div>
           <div className="diagram reveal">
-            <div className="diagram__title">Member webcam access — flow</div>
+            <div className="diagram__title">Membership — opportunity areas</div>
             <div className="diagram__flow">
               <div className="diagram__arrow diagram__arrow--1" aria-hidden="true"></div>
               <div className="diagram__arrow diagram__arrow--2" aria-hidden="true"></div>
@@ -563,34 +563,34 @@ function Ticketing() {
                 <div className="diagram__step-icon">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M3 8h18l-2 12H5L3 8z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg>
                 </div>
-                <div className="role">Step 01</div>
-                <div className="name">Ticket purchase</div>
-                <p className="desc">Visitor buys an annual membership through Clovelly's existing provider.</p>
+                <div className="role">Access</div>
+                <div className="name">Tiered membership</div>
+                <p className="desc">Move beyond a single pass — offer tiers that give returning visitors a reason to upgrade and stay.</p>
               </div>
 
               <div className="diagram__step">
                 <div className="diagram__step-icon">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18M7 14h4"/></svg>
                 </div>
-                <div className="role">Step 02</div>
-                <div className="name">Membership match</div>
-                <p className="desc">My integration verifies the ticket against the membership tier and issues a token.</p>
+                <div className="role">Perks</div>
+                <div className="name">Member-only experiences</div>
+                <p className="desc">Early harbour access, behind-the-scenes evenings, printed seasonal newsletters, exclusive live feeds — perks that feel earned.</p>
               </div>
 
               <div className="diagram__step">
                 <div className="diagram__step-icon">
-                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M3 7l9-4 9 4v10l-9 4-9-4z"/><circle cx="12" cy="12" r="2.5"/></svg>
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                 </div>
-                <div className="role">Step 03</div>
-                <div className="name">Webcam access</div>
-                <p className="desc">Member lands on the exclusive Donkey webcam feed — no second login.</p>
+                <div className="role">Advocacy</div>
+                <div className="name">Members who bring people</div>
+                <p className="desc">The goal is fewer one-time tickets and more long-term advocates — people who think of Clovelly as theirs.</p>
               </div>
             </div>
 
             <div className="diagram__detail">
-              <span className="diagram__detail-tag">Built</span>
+              <span className="diagram__detail-tag">Approach</span>
               <p className="diagram__detail-text">
-                <strong>Single-click access</strong>, persisted across sessions, expires with the membership. No extra accounts for visitors. The same pattern can extend to <strong>any future member-only digital feature</strong> — newsletters, archive video, gardener's diary.
+                <strong>Single-click access</strong> to digital perks, persisted across sessions, expiring cleanly with the membership. No extra accounts for visitors. The same pattern can power <strong>any future member benefit</strong> — archive video, a gardener's diary, seasonal newsletters.
               </p>
             </div>
           </div>
