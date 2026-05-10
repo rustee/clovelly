@@ -1,0 +1,167 @@
+/* ==========================================================================
+   Clovelly Design System — colours & type
+   --------------------------------------------------------------------------
+   The single source of truth for palette + typographic tokens. Import this
+   in any HTML/JSX artifact:
+       <link rel="stylesheet" href="/colors_and_type.css">
+   Webfonts come from Google Fonts (see fonts/README.md for the substitution
+   note); the @import is at the top so it loads alongside the tokens.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ---------------------------------------------------------------- palette */
+  /* Anchor */
+  --estate-green: #1F5E3A;
+  --estate-green-700: #18482D;
+  --estate-green-800: #103221;
+  --estate-green-200: #C9D8CD;
+  --estate-green-100: #E2EBE2;
+
+  /* Neutrals (warm) */
+  --cream:      #F4EFE6;   /* default page background */
+  --parchment:  #EAE2D2;   /* card / recessed surface  */
+  --linen:      #DCD2BD;   /* divider on cream         */
+  --stone:      #8A8473;   /* secondary text, captions */
+  --slate:      #4A4A42;   /* tertiary headings        */
+  --ink:        #1B1F1A;   /* body copy, primary ink   */
+  --paper:      #FBF8F1;   /* lifted card on cream     */
+
+  /* Accents (sparing) */
+  --sea:        #2F4858;   /* Red Lion sub-brand, cool accents */
+  --sea-700:    #1F3340;
+  --harbour:    #B7843E;   /* sandstone / festival highlights  */
+  --harbour-200:#E8D4B2;
+
+  /* Semantic */
+  --ok:      var(--estate-green);
+  --warn:    var(--harbour);
+  --error:   #A33B2A;       /* terracotta brick — never pillar-box */
+
+  /* Foreground / background semantic shorthands */
+  --fg-1:    var(--ink);
+  --fg-2:    var(--slate);
+  --fg-3:    var(--stone);
+  --fg-on-green: #FBF8F1;
+  --bg-1:    var(--cream);
+  --bg-2:    var(--parchment);
+  --bg-3:    var(--paper);
+  --bg-inverse: var(--estate-green);
+
+  --border:        rgba(138, 132, 115, 0.40); /* stone @ 40% */
+  --border-strong: rgba(27, 31, 26, 0.20);
+
+  /* ----------------------------------------------------------- type families */
+  --font-display: "Cormorant Garamond", "Cormorant", "EB Garamond", "Georgia", serif;
+  --font-serif:   "Lora", "Source Serif 4", "Georgia", serif;
+  --font-sans:    "Inter", "Helvetica Neue", "Arial", sans-serif;
+  --font-mono:    ui-monospace, "SF Mono", "Menlo", monospace;
+
+  /* ----------------------------------------------------------- type scale (display) */
+  --t-display-1:  clamp(56px, 7vw, 96px);
+  --t-display-2:  clamp(44px, 5.4vw, 72px);
+  --t-h1:         clamp(36px, 4vw, 56px);
+  --t-h2:         clamp(28px, 3vw, 40px);
+  --t-h3:         24px;
+  --t-h4:         20px;
+
+  --t-body:       17px;
+  --t-body-lg:    19px;   /* long-form prose pages */
+  --t-small:      14px;
+  --t-caption:    13px;
+  --t-overline:   12px;
+
+  --lh-tight:     1.1;
+  --lh-snug:      1.25;
+  --lh-normal:    1.45;
+  --lh-relaxed:   1.6;
+  --lh-loose:     1.75;
+
+  --tracking-overline: 0.16em;
+  --tracking-caps:     0.08em;
+
+  /* ------------------------------------------------------------- spacing (8pt) */
+  --s-1:  4px;
+  --s-2:  8px;
+  --s-3:  12px;
+  --s-4:  16px;
+  --s-5:  24px;
+  --s-6:  32px;
+  --s-7:  48px;
+  --s-8:  64px;
+  --s-9:  96px;
+  --s-10: 128px;
+
+  /* radii / shadows */
+  --r-0: 0;
+  --r-1: 4px;
+  --r-2: 6px;
+  --r-3: 8px;
+  --r-4: 12px;
+
+  --shadow-1: 0 1px 2px rgba(27, 31, 26, 0.06);
+  --shadow-2: 0 4px 14px rgba(27, 31, 26, 0.06);
+  --shadow-3: 0 8px 24px rgba(27, 31, 26, 0.08);
+
+  /* motion */
+  --ease-house: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur-fast:   120ms;
+  --dur-base:   280ms;
+  --dur-slow:   480ms;
+}
+
+/* ==========================================================================
+   Base / semantic typography
+   ========================================================================== */
+
+html, body {
+  background: var(--bg-1);
+  color: var(--fg-1);
+  font-family: var(--font-serif);
+  font-size: var(--t-body);
+  line-height: var(--lh-relaxed);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-family: var(--font-display);
+  font-weight: 400;            /* display headings are NEVER bold */
+  color: var(--fg-1);
+  margin: 0 0 var(--s-4) 0;
+  letter-spacing: -0.005em;
+}
+
+h1, .h1 { font-size: var(--t-h1); line-height: var(--lh-tight); }
+h2, .h2 { font-size: var(--t-h2); line-height: var(--lh-snug); }
+h3, .h3 { font-size: var(--t-h3); line-height: var(--lh-snug); }
+h4, .h4 { font-size: var(--t-h4); line-height: var(--lh-snug); font-family: var(--font-sans); font-weight: 600; letter-spacing: 0; }
+
+.display-1 { font-family: var(--font-display); font-weight: 300; font-size: var(--t-display-1); line-height: var(--lh-tight); letter-spacing: -0.01em; }
+.display-2 { font-family: var(--font-display); font-weight: 400; font-size: var(--t-display-2); line-height: var(--lh-tight); letter-spacing: -0.005em; }
+
+p, .p { font-family: var(--font-serif); font-size: var(--t-body); line-height: var(--lh-relaxed); margin: 0 0 var(--s-4) 0; color: var(--fg-1); text-wrap: pretty; }
+.lede { font-family: var(--font-serif); font-size: var(--t-body-lg); line-height: var(--lh-relaxed); color: var(--fg-1); }
+
+small, .small, .caption { font-family: var(--font-sans); font-size: var(--t-small); color: var(--fg-2); line-height: var(--lh-normal); }
+.overline { font-family: var(--font-sans); font-size: var(--t-overline); letter-spacing: var(--tracking-overline); text-transform: uppercase; color: var(--fg-3); font-weight: 600; }
+
+a, .link {
+  color: var(--estate-green);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--dur-fast) var(--ease-house);
+}
+a:hover, .link:hover { border-bottom-color: currentColor; }
+
+code, .code, kbd { font-family: var(--font-mono); font-size: 0.92em; background: var(--bg-2); padding: 0.1em 0.35em; border-radius: var(--r-1); }
+
+hr, .rule { border: 0; border-top: 1px solid var(--border); margin: var(--s-7) 0; }
+
+/* utility helpers (tiny, used inside preview cards) */
+.u-cream  { background: var(--cream); }
+.u-parch  { background: var(--parchment); }
+.u-green  { background: var(--estate-green); color: var(--fg-on-green); }
+.u-ink    { color: var(--ink); }
+.u-stone  { color: var(--stone); }
