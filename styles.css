@@ -83,6 +83,9 @@ button { font: inherit; cursor: pointer; }
 .btn--ghost-light:hover { background: rgba(251,248,241,0.1); border-color: var(--cream); }
 .btn--ghost { background: transparent; border: 1.5px solid var(--estate-green); color: var(--estate-green); padding: 12.5px 24.5px; }
 .btn--ghost:hover { background: rgba(31, 94, 58, 0.08); }
+.btn--white { background: #fff; color: #1a1a1a; }
+.btn--white:hover { background: rgba(255,255,255,0.88); }
+.btn--white:active { background: rgba(255,255,255,0.76); transform: translateY(1px); }
 
 /* ======================================================================
    Hero — 'editorial' (default)
@@ -95,18 +98,18 @@ button { font: inherit; cursor: pointer; }
   overflow: hidden;
 }
 .hero::before {
-  content: ""; position: absolute; inset: 0; z-index: 0;
-  background:
-    linear-gradient(180deg, rgba(16, 50, 33, 0.18) 0%, rgba(16, 50, 33, 0.45) 55%, rgba(10, 25, 18, 0.82) 100%),
-    url('assets/hero-clovelly.jpg') center 60% / cover no-repeat,
-    var(--hero-photo, linear-gradient(135deg, #2a4a3a, #18482D 50%, #1B1F1A));
-  background-size: cover, cover, cover;
-  background-position: center, center 60%, center;
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(180deg, rgba(5, 12, 8, 0.55) 0%, rgba(5, 12, 8, 0.78) 55%, rgba(0, 5, 2, 0.97) 100%);
+  pointer-events: none;
+}
+.hero__bg-video {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
   transform: scale(1.05);
-  transition: transform 600ms var(--ease-house);
 }
 .hero__inner {
-  position: relative; z-index: 1;
+  position: relative; z-index: 2;
   max-width: 1280px; width: 100%; margin: 0 auto;
   display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px;
   align-items: end;
@@ -122,7 +125,7 @@ button { font: inherit; cursor: pointer; }
 }
 .hero h1 {
   font-family: var(--font-display); font-weight: 300;
-  font-size: clamp(56px, 8.5vw, 124px);
+  font-size: clamp(40px, 5.5vw, 80px);
   line-height: 0.98; letter-spacing: -0.015em;
   color: var(--cream);
   margin: 0 0 28px;
@@ -155,23 +158,15 @@ button { font: inherit; cursor: pointer; }
 }
 .hero__ctas { display: flex; gap: 12px; flex-wrap: wrap; }
 
-/* Photo background — Clovelly placeholder gradients (one-of-three rotating illustration) */
+/* Gradient tint variants (video replaces static photo) */
 .hero[data-photo="harbour"]::before {
-  background:
-    linear-gradient(180deg, rgba(16, 30, 40, 0.18) 0%, rgba(16, 30, 40, 0.45) 55%, rgba(8, 18, 24, 0.82) 100%),
-    url('assets/hero-clovelly.jpg') center 60% / cover no-repeat;
+  background: linear-gradient(180deg, rgba(5, 12, 8, 0.35) 0%, rgba(5, 12, 8, 0.60) 55%, rgba(0, 5, 2, 0.88) 100%);
 }
 .hero[data-photo="cobble"]::before {
-  background:
-    linear-gradient(180deg, rgba(40,30,20,0.20) 0%, rgba(20,15,10,0.55) 60%, rgba(20,15,10,0.90) 100%),
-    url('assets/hero-clovelly.jpg') center 70% / cover no-repeat;
-  filter: sepia(0.18) saturate(0.95);
+  background: linear-gradient(180deg, rgba(5, 12, 8, 0.35) 0%, rgba(5, 12, 8, 0.60) 55%, rgba(0, 5, 2, 0.88) 100%);
 }
 .hero[data-photo="garden"]::before {
-  background:
-    linear-gradient(180deg, rgba(16,40,28,0.18) 0%, rgba(16,50,33,0.55) 60%, rgba(10,30,20,0.92) 100%),
-    url('assets/hero-clovelly.jpg') center 50% / cover no-repeat;
-  filter: hue-rotate(-8deg) saturate(0.92);
+  background: linear-gradient(180deg, rgba(5, 12, 8, 0.35) 0%, rgba(5, 12, 8, 0.60) 55%, rgba(0, 5, 2, 0.88) 100%);
 }
 
 /* Hero ticker / scroll cue */
@@ -424,6 +419,8 @@ button { font: inherit; cursor: pointer; }
               opacity 400ms var(--ease-house);
   cursor: pointer;
   user-select: none;
+  border: none; outline: none; appearance: none; -webkit-appearance: none;
+  text-align: left;
 }
 .phone__screen {
   width: 100%; height: 100%; border-radius: 30px;
@@ -1128,4 +1125,88 @@ button { font: inherit; cursor: pointer; }
   .diagram__flow { grid-template-columns: 1fr; gap: 24px; }
   .diagram__arrow { display: none; }
   .plans--cards { grid-template-columns: 1fr; }
+}
+
+/* ============================ Reel Modal ============================ */
+.reel-modal {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(0,0,0,0.85);
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+  animation: modal-fade-in 0.18s ease;
+}
+@keyframes modal-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.reel-modal__inner {
+  position: relative;
+  background: #1a1a1a;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  max-height: 90vh;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.6);
+}
+.reel-modal__close {
+  position: absolute; top: 12px; right: 12px; z-index: 2;
+  background: rgba(0,0,0,0.45);
+  border: none; border-radius: 50%;
+  width: 36px; height: 36px;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; cursor: pointer;
+  transition: background 0.15s;
+}
+.reel-modal__close:hover { background: rgba(0,0,0,0.75); }
+.reel-modal__video {
+  height: 90vh;
+  aspect-ratio: 9/16;
+  object-fit: cover; display: block; background: #000;
+  flex-shrink: 0;
+}
+.reel-modal__info {
+  padding: 32px 28px 28px;
+  overflow-y: auto;
+  flex: 1;
+  min-width: 260px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.reel-modal__handle {
+  font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.45);
+  margin: 0 0 12px; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.reel-modal__caption {
+  font-size: 13px; line-height: 1.7; color: rgba(255,255,255,0.82);
+  white-space: pre-line; margin: 0 0 20px;
+}
+.reel-modal__info .btn { margin-top: auto; align-self: flex-start; }
+@media (max-width: 600px) {
+  .reel-modal { padding: 0; align-items: flex-end; }
+  .reel-modal__inner { flex-direction: column; border-radius: 16px 16px 0 0; max-height: 95vh; max-width: 100%; width: 100%; }
+  .reel-modal__video { height: auto; width: 100%; aspect-ratio: 9/16; max-height: 60vh; }
+  .reel-modal__info { max-width: none; }
+}
+.reel-modal__comments {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-bottom: 20px;
+  padding-top: 16px;
+}
+.reel-modal__comments-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  color: rgba(255,255,255,0.35); margin: 0 0 12px;
+}
+.reel-modal__comment {
+  display: flex; flex-direction: column; gap: 2px;
+  margin-bottom: 10px;
+}
+.reel-modal__comment:last-child { margin-bottom: 0; }
+.reel-modal__comment-author {
+  font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.5);
+  letter-spacing: 0.03em;
+}
+.reel-modal__comment-text {
+  font-size: 13px; line-height: 1.5; color: rgba(255,255,255,0.78);
 }

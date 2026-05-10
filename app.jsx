@@ -14,41 +14,97 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 /* ============================ DATA ============================ */
 const REELS = [
   {
-    url: "https://www.instagram.com/reel/DXs8_UoCG4-/",
+    url: "https://www.instagram.com/howardthomson/reel/DXs8_UoCG4-/",
     handle: "@howardthomson",
-    caption: "Sunrise breaking over the harbour wall, tide low.",
-    likes: "12.3k", comments: "184", shares: "2,140",
-    tone: "harbour"
+    caption: "After You 🖤",
+    fullCaption: "After You 🖤",
+    cover: "uploads/DXs8_UoCG4-.jpg",
+    video: "uploads/DXs8_UoCG4-.mp4",
+    comments: [
+      { author: "thisisjules",          text: "Gosh this stopped me in my tracks ❤️" },
+      { author: "paulwordsmith",        text: "Wow this reminds me of Synechdoche, New York. Really emotive" },
+      { author: "freeformimages.co.uk", text: "Stunning and lots of our beautiful North Devon especially Clovelly 💖🙌🏻" },
+      { author: "suzannefieldart",      text: "Powerful❤️ 😢" },
+      { author: "kizzylou71",           text: "Not sure what brought this to my feed, but it's beautiful 💔❤️" },
+    ],
   },
   {
-    url: "https://www.instagram.com/reel/C_VqOnnskgM/",
+    url: "https://www.instagram.com/howardthomson/reel/C_VqOnnskgM/",
     handle: "@howardthomson",
-    caption: "Cobbles, slate roofs, and a slow walk down to the quay.",
-    likes: "8.7k", comments: "92", shares: "1,420",
-    tone: "cobble"
+    caption: "Happiness ⛵️",
+    fullCaption: "Happiness ⛵️",
+    cover: "uploads/C_VqOnnskgM.jpg",
+    video: "uploads/C_VqOnnskgM.mp4",
+    comments: [
+      { author: "redlionclovelly", text: "Nowhere better 🙌" },
+    ],
   },
   {
-    url: "https://www.instagram.com/reel/C5VnMxQsYJY/",
+    url: "https://www.instagram.com/howardthomson/reel/C5VnMxQsYJY/",
     handle: "@howardthomson",
-    caption: "Happiness — a bird's-eye morning over the village and harbour wall.",
-    likes: "21.4k", comments: "310", shares: "4,800",
-    tone: "garden",
-    cover: "assets/reel-happiness.jpg"
+    caption: "#2: The Guernsey Literary & Potato Peel Pie Society",
+    fullCaption: `#2: The Guernsey Literary & Potato Peel Pie Society
+
+The second in a series of reels exploring locations used for film and TV in Devon and Cornwall.
+
+The name might have you believe this film was shot on Guernsey, but the majority was actually filmed in North Devon. Clovelly was used for the scenes of St Peter Port, with CGI and the nearby town of Bideford being used to give the illusion of a much larger scene.
+
+The coast at Hartland (one of my favourite walks 🤩) also features prominently, with some beautiful cinematography looking down towards Cornwall.
+
+Where to watch: Netflix (UK) 📺
+
+#devoncornwall #cinematography #clovelly #hartland #bideford #filminglocations #netflix #northdevon`,
+    cover: "uploads/C5VnMxQsYJY.jpg",
+    video: "uploads/C5VnMxQsYJY.mp4",
+    comments: [
+      { author: "j_white_2021",   text: "Guernsey is so stunning. Shame it was not filmed there" },
+      { author: "rollergirl.23",  text: "😍😍😍👏👏👏🙌🙌🙌" },
+    ],
   },
   {
-    url: "https://www.instagram.com/reel/C3isQUoMGaM/",
+    url: "https://www.instagram.com/howardthomson/reel/Cz61GdwML-A/",
     handle: "@howardthomson",
-    caption: "Quiet light through the courtyard at the Red Lion.",
-    likes: "6.2k", comments: "71", shares: "980",
-    tone: "wood"
+    caption: "Hartland, North Devon",
+    fullCaption: `Hartland, North Devon
+
+One of my favourite stretches of coastline, just North of the border between Devon and Cornwall. Home to shipwrecks, waterfalls, epic views, and not forgetting the lighthouse 🫠
+
+#hartland #hartlandquay #spekesmill #northdevon #devon #visitdevon #southwestengland #hiking #djimavic3 #sonya7iv`,
+    cover: "uploads/Cz61GdwML-A.jpg",
+    video: "uploads/Cz61GdwML-A.mp4",
+    comments: [
+      { author: "smurf9130",                  text: "One of my favourite places. We used to stay in Hartland as a family years ago. So many happy memories ❤️" },
+      { author: "keeping_a_lighthouse",        text: "That's epic mate! Awesome editing" },
+      { author: "exploring_with_em_and_milo",  text: "It's a great stretch of coast path! 😍" },
+      { author: "gabbygoesexploring",          text: "Love this!!!!" },
+    ],
   },
   {
-    url: "https://www.instagram.com/reel/Cz61GdwML-A/",
+    url: "https://www.instagram.com/howardthomson/reel/Csx0KvRNSaq/",
     handle: "@howardthomson",
-    caption: "A still afternoon — the gardens, the gull-cry, the sea.",
-    likes: "9.8k", comments: "117", shares: "1,650",
-    tone: "sea"
-  }
+    caption: "North Devon — how many spots do you recognise?",
+    fullCaption: `From rugged coastlines to sandy beaches, national parks and now a World Surfing Reserve, North Devon has plenty to offer! How many of these spots do you recognise?
+
+1. Saunton Sands
+2. Valley of Rocks
+3. Instow / Appledore
+4. Abbotsham
+5. Watermouth Cove
+6. Clovelly
+7. Hartland Point
+8. Speke's Mill
+9. Blackchurch Rock
+10. Ilfracombe`,
+    cover: "uploads/Csx0KvRNSaq.jpg",
+    video: "uploads/Csx0KvRNSaq.mp4",
+    comments: [
+      { author: "olive_lodge_",                text: "I am lucky to live here 💕" },
+      { author: "katherinebarberjewellery",     text: "So beautiful 😍 aren't we lucky to call it home" },
+      { author: "stevehernamanart",             text: "yes it bleddy does, who needs jet setting!" },
+      { author: "thetwitfortwoo",               text: "Love this 🔥" },
+      { author: "guyharrop",                   text: "Looks great!" },
+    ],
+  },
 ];
 
 const PLANS = [
@@ -118,7 +174,7 @@ function NavBar() {
           <path d="M12 2 L22 7 L22 17 L12 22 L2 17 L2 7 Z" />
           <path d="M12 2 L12 22 M2 7 L22 17 M22 7 L2 17" opacity="0.4" />
         </svg>
-        <span className="name">Howard&nbsp;·&nbsp;Clovelly</span>
+        <span className="name">Howard Thomson</span>
       </a>
       <div className="app-nav__links">
         {link("about", "About")}
@@ -179,9 +235,6 @@ function Hero({ variant, photo }) {
               Howard <span className="accent">Thomson</span>
               <br/>for Clovelly.
             </h1>
-            <p className="hero__lede">
-              Web developer and filmmaker at Panoptic. I already build and look after the Clovelly and Red Lion websites, and I visit the village frequently — usually at sunrise — to capture content for your social channels. I'd like to do more.
-            </p>
             <div className="hero__ctas">
               <a href="#about" className="btn btn--primary">Read the application</a>
               <a href="#work" className="btn btn--ghost-light">See the work</a>
@@ -201,7 +254,7 @@ function Hero({ variant, photo }) {
               <span className="value">Filmmaker & web dev, Panoptic</span>
             </div>
             <div className="hero__meta-row">
-              <span className="label">Filed</span>
+              <span className="label">Date</span>
               <span className="value">May 2026</span>
             </div>
           </div>
@@ -214,17 +267,15 @@ function Hero({ variant, photo }) {
   // default editorial
   return (
     <section ref={ref} className="hero" id="top" data-photo={photo}>
-      <div className="hero__bg-track" style={{ position: "absolute", inset: 0, zIndex: 0 }} aria-hidden="true"></div>
+      <div className="hero__bg-track" style={{ position: "absolute", inset: 0, zIndex: 0 }} aria-hidden="true">
+        <video className="hero__bg-video" src="assets/clovelly-header.mp4" autoPlay muted loop playsInline />
+      </div>
       <div className="hero__inner">
         <div className="hero__copy">
           <div className="hero__eyebrow">Application · Marketing Coordinator</div>
           <h1>
-            Howard Thomson<br/>
-            <span className="accent">for Clovelly.</span>
+            Howard Thomson
           </h1>
-          <p className="hero__lede">
-            Web developer and filmmaker. I already build the Clovelly and Red Lion sites — and I'm in the village most weeks at sunrise, making content for your social. I'd like to do more.
-          </p>
           <div className="hero__ctas">
             <a href="#about" className="btn btn--primary">Read the application</a>
             <a href="#work" className="btn btn--ghost-light">See the work</a>
@@ -256,7 +307,7 @@ function About() {
     <section className="section" id="about" data-screen-label="01 About">
       <div className="section__head reveal">
         <div className="label"><span className="num">01</span>About me</div>
-        <h2>Already in the village. <em>Most weeks.</em></h2>
+        <h2>Already in the village.</h2>
       </div>
       <div className="about__grid">
         <div className="about__col reveal">
@@ -308,9 +359,64 @@ function About() {
   );
 }
 
+/* ============================ REEL MODAL ============================ */
+function ReelModal({ reel, onClose }) {
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [onClose]);
+
+  return (
+    <div className="reel-modal" onClick={onClose} role="dialog" aria-modal="true">
+      <div className="reel-modal__inner" onClick={e => e.stopPropagation()}>
+        <button className="reel-modal__close" onClick={onClose} aria-label="Close">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+        <video
+          className="reel-modal__video"
+          src={reel.video}
+          controls
+          autoPlay
+          playsInline
+        />
+        <div className="reel-modal__info">
+          <p className="reel-modal__handle">{reel.handle}</p>
+          <p className="reel-modal__caption">{reel.fullCaption}</p>
+          {reel.comments && reel.comments.length > 0 && (
+            <div className="reel-modal__comments">
+              <p className="reel-modal__comments-label">Comments</p>
+              {reel.comments.map((c, i) => (
+                <div key={i} className="reel-modal__comment">
+                  <span className="reel-modal__comment-author">@{c.author}</span>
+                  <span className="reel-modal__comment-text">{c.text}</span>
+                </div>
+              ))}
+            </div>
+          )}
+          <a
+            href={reel.url}
+            target="_blank"
+            rel="noopener"
+            className="btn btn--white"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            View on Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /* ============================ REELS CAROUSEL ============================ */
 function ReelsCarousel() {
   const [index, setIndex] = useState(0);
+  const [openReel, setOpenReel] = useState(null);
   const total = REELS.length;
   const next = useCallback(() => setIndex(i => (i + 1) % total), [total]);
   const prev = useCallback(() => setIndex(i => (i - 1 + total) % total), [total]);
@@ -374,12 +480,12 @@ function ReelsCarousel() {
       <div className="section__inner">
         <div className="section__head reveal">
           <div className="label"><span className="num">02</span>Current work</div>
-          <h2>Reels from the village. <em>Mine.</em></h2>
+          <h2>Examples of previous social posts</h2>
         </div>
         <div className="reels">
           <div className="reels__copy reveal">
             <p className="lede">
-              Most weeks I'm in Clovelly before the village wakes — quiet light, no crowds, the donkeys still in their stable.
+              I'm often in Clovelly before the village wakes — quiet light, no crowds, the donkeys still in their stable.
             </p>
             <p>
               These are five recent reels I've shot, edited and posted for the @howardthomson Instagram. The thumbnails here link out to the originals.
@@ -408,35 +514,19 @@ function ReelsCarousel() {
           </div>
           <div className="reels__stage" ref={stageRef}>
             {REELS.map((reel, i) => (
-              <a
+              <button
                 key={reel.url}
-                href={reel.url}
-                target="_blank" rel="noopener"
                 className="phone"
                 style={phoneStyle(i)}
-                onClick={(e) => {
-                  if (i !== index) { e.preventDefault(); setIndex(i); }
-                }}
+                onClick={() => { if (i !== index) { setIndex(i); } else { setOpenReel(reel); } }}
                 aria-label={`Open reel: ${reel.caption}`}
               >
                 <div className="phone__screen" data-i={i}>
                   <div className="phone__notch"></div>
-                  {reel.cover
-                    ? <img className="phone__cover" src={reel.cover} alt="" />
-                    : <PhoneArt tone={reel.tone} />}
+                  <img className="phone__cover" src={reel.cover} alt="" />
                   <div className="phone__overlay">
                     <div className="phone__handle">{reel.handle}</div>
                     <div className="phone__caption">{reel.caption}</div>
-                    <div className="phone__meta">
-                      <span className="phone__meta-item">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z"/></svg>
-                        {reel.likes}
-                      </span>
-                      <span className="phone__meta-item">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V6a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/></svg>
-                        {reel.comments}
-                      </span>
-                    </div>
                   </div>
                   <div className="phone__sidebar">
                     <div className="phone__action">
@@ -449,17 +539,12 @@ function ReelsCarousel() {
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V6a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/></svg>
                       </div>
                     </div>
-                    <div className="phone__action">
-                      <div className="phone__action-icon">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12l5 5L20 7"/></svg>
-                      </div>
-                    </div>
                   </div>
                   <div className="phone__play">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                   </div>
                 </div>
-              </a>
+              </button>
             ))}
             <div className="reels__controls">
               <button className="reels__btn" onClick={prev} aria-label="Previous reel">
@@ -482,6 +567,7 @@ function ReelsCarousel() {
           </div>
         </div>
       </div>
+      {openReel && <ReelModal reel={openReel} onClose={() => setOpenReel(null)} />}
     </section>
   );
 }
