@@ -407,6 +407,8 @@ button { font: inherit; cursor: pointer; }
   perspective: 2000px;
   height: 640px;
   display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+  touch-action: pan-y;
 }
 .phone {
   position: absolute;
@@ -1068,6 +1070,7 @@ button { font: inherit; cursor: pointer; }
 .contact__channel .value {
   font-family: var(--font-display); font-style: italic; font-weight: 300;
   font-size: 26px; color: var(--cream); line-height: 1.2;
+  overflow-wrap: break-word; min-width: 0;
 }
 .contact__channel:hover .value { text-decoration: underline; }
 .contact__sig {
@@ -1125,6 +1128,7 @@ button { font: inherit; cursor: pointer; }
   .diagram__flow { grid-template-columns: 1fr; gap: 24px; }
   .diagram__arrow { display: none; }
   .plans--cards { grid-template-columns: 1fr; }
+  .contact__channel .value { font-size: 18px; }
 }
 
 /* ============================ Reel Modal ============================ */
