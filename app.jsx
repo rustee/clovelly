@@ -109,13 +109,13 @@ One of my favourite stretches of coastline, just North of the border between Dev
 
 const PLANS = [
   {
-    tag: "Brand Position",
-    title: "An escape from the screen-lit world.",
+    tag: "Events",
+    title: "Events worth coming back for.",
     body: [
-      "Position Clovelly as a quiet contrast to the always-on city — a place that rewards slow walking, real weather, and the patient kind of looking. The brand can lean into what's already true: cobbles, donkeys, a working harbour, and an old village still doing the things it has always done.",
-      "This appeals especially to a younger audience increasingly fatigued by AI-generated everything. The pitch is simple: a few days here, and you remember the taste of the air."
+      "Clovelly already draws people in spring and summer — the question is what pulls them back, and how to spread that across the year. A small, well-timed events programme — a winter lantern evening, a summer open-garden session, an autumn harvest from the estate — gives the calendar shape and the social feed something to build towards.",
+      "Each event is also content: the setup, the light, the faces of the people who come. Shot well, a single evening can supply a fortnight of material. The planning side — logistics, suppliers, attendee management, post-event reporting — is something I've done at Panoptic across festivals and private events, and I'd bring that same operational grounding here."
     ],
-    pull: "The most compelling thing Clovelly can offer the 2026 traveller is the absence of a screen."
+    pull: "Well-timed events give the calendar shape — and the social feed something to build towards."
   },
   {
     tag: "Digital Refresh",
@@ -216,7 +216,7 @@ function Hero({ variant, photo }) {
           </p>
           <div className="hero__sig">— Howard</div>
           <div className="hero__meta-rail">
-            <div><div className="label">Role</div><div className="value">Marketing Coordinator</div></div>
+            <div><div className="label">Role</div><div className="value">Marketing &amp; Events Co-ordinator</div></div>
             <div><div className="label">Based</div><div className="value">Devon</div></div>
             <div><div className="label">Available</div><div className="value">Immediately</div></div>
           </div>
@@ -230,7 +230,7 @@ function Hero({ variant, photo }) {
       <section ref={ref} className="hero hero--quiet" id="top">
         <div className="hero__inner">
           <div className="hero__copy">
-            <div className="hero__eyebrow">Application · Marketing Coordinator</div>
+            <div className="hero__eyebrow">Application · Marketing &amp; Events Co-ordinator</div>
             <h1>
               Howard <span className="accent">Thomson</span>
               <br/>for Clovelly.
@@ -243,7 +243,7 @@ function Hero({ variant, photo }) {
           <div className="hero__meta">
             <div className="hero__meta-row">
               <span className="label">Role</span>
-              <span className="value">Marketing Coordinator</span>
+              <span className="value">Marketing &amp; Events Co-ordinator</span>
             </div>
             <div className="hero__meta-row">
               <span className="label">From</span>
@@ -272,7 +272,7 @@ function Hero({ variant, photo }) {
       </div>
       <div className="hero__inner">
         <div className="hero__copy">
-          <div className="hero__eyebrow">Application · Marketing Coordinator</div>
+          <div className="hero__eyebrow">Application · Marketing &amp; Events Co-ordinator</div>
           <h1>
             Howard Thomson
           </h1>
@@ -319,7 +319,10 @@ function About() {
               In addition to building and maintaining the current Clovelly and Red Lion Hotel websites, I also visit the village frequently — particularly at sunrise — to capture content for social media.
             </p>
             <p>
-              That dual role is, I think, the unusual part. I write the code that runs your booking flows and I shoot the reels that fill your Instagram feed. I know what's on your CMS, I know what your photographers are working with on a wet Tuesday in February, and I know what the village looks like at 06:14 in May.
+              Events sit in the same territory. At Panoptic I've worked the full arc — initial planning and supplier briefings through to on-the-day logistics, attendee management, and post-event write-ups. It's the part of marketing where the detail either holds or it doesn't.
+            </p>
+            <p>
+              That combination is, I think, the unusual part. I write the code that runs your booking flows, I shoot the reels that fill your Instagram feed, and I know how to run a field day without losing a supplier. I know what's on your CMS, I know what the village looks like at 06:14 in May, and I know what questions you'll be asked on the morning of an event.
             </p>
           </div>
           <div className="about__credits">
@@ -331,7 +334,7 @@ function About() {
             <div className="about__credit">
               <div className="label">Working with Clovelly</div>
               <div className="value">3+ years</div>
-              <div className="meta">Site, social, ticketing</div>
+              <div className="meta">Site, social, events</div>
             </div>
           </div>
         </div>
