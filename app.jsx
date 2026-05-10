@@ -307,7 +307,7 @@ function About() {
     <section className="section" id="about" data-screen-label="01 About">
       <div className="section__head reveal">
         <div className="label"><span className="num">01</span>About me</div>
-        <h2>Already in the village.</h2>
+        <h2>Content, socials, web and event experience.</h2>
       </div>
       <div className="about__grid">
         <div className="about__col reveal">
