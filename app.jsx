@@ -6,7 +6,7 @@ const { useState, useEffect, useRef, useCallback } = React;
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "heroVariant": "editorial",
   "heroPhoto": "harbour",
-  "plansLayout": "journal",
+  "plansLayout": "magazine",
   "showFlourish": true,
   "accentTone": "estate"
 }/*EDITMODE-END*/;
