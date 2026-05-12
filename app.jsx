@@ -93,7 +93,7 @@ One of my favourite stretches of coastline, just North of the border between Dev
   {
     url: "https://www.instagram.com/howardthomson/reel/Csx0KvRNSaq/",
     handle: "@howardthomson",
-    caption: "North Devon — how many spots do you recognise?",
+    caption: "North Devon: how many spots do you recognise?",
     fullCaption: `From rugged coastlines to sandy beaches, national parks and now a World Surfing Reserve, North Devon has plenty to offer! How many of these spots do you recognise?
 
 1. Saunton Sands
@@ -123,7 +123,7 @@ const PLANS = [
     tag: "Digital Refresh",
     title: "A measured refresh of the websites.",
     body: [
-      "The Clovelly and Red Lion sites are several years old. Working at Panoptic, I've already maintained them — so a refresh in-house, in a phased rollout, is well within reach. No agency contract, no rebuild from scratch.",
+      "The Clovelly and Red Lion sites are several years old. Working at Panoptic, I've already maintained them, so a refresh in-house, in a phased rollout, is well within reach. No agency contract, no rebuild from scratch.",
       "The aim is editorial pacing, full-bleed photography, faster booking flows, and a content layer that finally puts the village's own storytelling at the centre. Built once, kept current quarterly."
     ],
   },
@@ -132,14 +132,14 @@ const PLANS = [
     title: "Memberships that earn frequent visits.",
     body: [
       "Annual membership today gets unlimited entry. There's room to do more for the people who actually return. Behind-the-scenes evenings with the gardeners, exclusive webcam feeds (already integrated), printed seasonal newsletters from the estate.",
-      "The goal is fewer one-time tickets and more long-term advocates — visitors who see Clovelly as theirs, and bring people."
+      "The goal is fewer one-time tickets and more long-term advocates: visitors who see Clovelly as theirs, and bring people."
     ],
   },
   {
     tag: "Content & Social",
     title: "A weekly rhythm of village content.",
     body: [
-      "I'm already producing reels at sunrise. The next step is treating that as a programme — a publishing rhythm, a small library of evergreen pieces, and seasonal campaigns timed to gardens, festivals, and weather. Reels remain the lead format, but with newsletter, blog and printed counterparts.",
+      "I'm already producing reels at sunrise. The next step is treating that as a programme: a publishing rhythm, a small library of evergreen pieces, and seasonal campaigns timed to gardens, festivals, and weather. Reels remain the lead format, but with newsletter, blog and printed counterparts.",
       "Most importantly: shot in the village, by someone who is in the village, with no stock photography between the audience and the place."
     ],
   }
@@ -207,9 +207,9 @@ function Hero({ variant, photo }) {
             I'd like to <span className="accent">do more</span> than maintain your websites.
           </h1>
           <p className="hero__lede">
-            I'm Howard Thomson — a web developer and filmmaker at Panoptic. I already build and look after your sites, and I visit the village often (usually before sunrise) to make content for your social. I'd like to apply for the Marketing Coordinator role.
+            I'm Howard Thomson, a web developer and filmmaker at Panoptic. I already build and look after your sites, and I visit the village often (usually before sunrise) to make content for your social. I'd like to apply for the Marketing Coordinator role.
           </p>
-          <div className="hero__sig">— Howard</div>
+          <div className="hero__sig">Howard</div>
           <div className="hero__meta-rail">
             <div><div className="label">Role</div><div className="value">Marketing &amp; Events Co-ordinator</div></div>
             <div><div className="label">Based</div><div className="value">Devon</div></div>
@@ -283,7 +283,7 @@ function Hero({ variant, photo }) {
           </div>
           <div className="hero__meta-row">
             <span className="label">Currently</span>
-            <span className="value">Panoptic — web & film</span>
+            <span className="value">Panoptic, web & film</span>
           </div>
           <div className="hero__meta-row">
             <span className="label">Date</span>
@@ -482,13 +482,13 @@ function ReelsCarousel() {
         <div className="reels">
           <div className="reels__copy reveal">
             <p className="lede">
-              I'm often in Clovelly before the village wakes — quiet light, no crowds, the donkeys still in their stable.
+              I'm often in Clovelly before the village wakes: quiet light, no crowds, the donkeys still in their stable.
             </p>
             <p>
               These are five recent reels I've shot, edited and posted for my personal Instagram. The thumbnails here link out to the originals.
             </p>
             <p>
-              I treat content as a programme, not a one-off — a regular, low-fuss rhythm of pieces shot in the village by someone who is in the village.
+              I treat content as a programme, not a one-off. A regular, low-fuss rhythm of pieces shot in the village by someone who is in the village.
             </p>
             <a href="https://www.instagram.com/howardthomson/" target="_blank" rel="noopener" className="reels__handle">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
@@ -620,24 +620,24 @@ function Ticketing() {
           <h2>Turning visitors into <em>long-term members.</em></h2>
         </div>
         <p className="ticketing__lede reveal">
-          At Panoptic, we built our own ticketing platform and used it across festivals and events nationwide. For Clovelly, I've worked closely with your existing provider — and I understand the infrastructure well enough to know where membership programmes win or lose people.
+          At Panoptic, we built our own ticketing platform and used it across festivals and events nationwide. For Clovelly, I've worked closely with your existing provider, and I understand the infrastructure well enough to know where membership programmes win or lose people.
         </p>
         <div className="ticketing__body">
           <div className="ticketing__copy reveal">
             <p>
-              Annual membership is currently a single-tier pass. There's room to do considerably more — layering in perks that reward return visits and give members a genuine sense of belonging to the estate, not just access to it.
+              Annual membership is currently a single-tier pass. There's room to do considerably more, layering in perks that reward return visits and give members a genuine sense of belonging to the estate, not just access to it.
             </p>
             <p>
               The technical groundwork is already there. I've built integrations between your ticket provider and member-only digital features, and I know how to extend that pattern without adding friction for visitors.
             </p>
             <ul className="ticketing__list">
-              <li>Built the Panoptic ticketing platform — used at events and festivals across the country.</li>
+              <li>Built the Panoptic ticketing platform, used at events and festivals across the country.</li>
               <li>Designed and shipped Clovelly's ticket-provider integration for exclusive member digital perks.</li>
               <li>Experienced with the full operations layer: onboarding flows, renewals, capacity management, on-the-day support.</li>
             </ul>
           </div>
           <div className="diagram reveal">
-            <div className="diagram__title">Membership — opportunity areas</div>
+            <div className="diagram__title">Membership: opportunity areas</div>
             <div className="diagram__flow">
               <div className="diagram__arrow diagram__arrow--1" aria-hidden="true"></div>
               <div className="diagram__arrow diagram__arrow--2" aria-hidden="true"></div>
@@ -648,7 +648,7 @@ function Ticketing() {
                 </div>
                 <div className="role">Access</div>
                 <div className="name">Tiered membership</div>
-                <p className="desc">Move beyond a single pass — offer tiers that give returning visitors a reason to upgrade and stay.</p>
+                <p className="desc">Move beyond a single pass. Offer tiers that give returning visitors a reason to upgrade and stay.</p>
               </div>
 
               <div className="diagram__step">
@@ -657,7 +657,7 @@ function Ticketing() {
                 </div>
                 <div className="role">Perks</div>
                 <div className="name">Member-only experiences</div>
-                <p className="desc">Behind-the-scenes evenings, printed seasonal newsletters, exclusive live feeds — perks that feel earned.</p>
+                <p className="desc">Behind-the-scenes evenings, printed seasonal newsletters, exclusive live feeds. Perks that feel earned.</p>
               </div>
 
               <div className="diagram__step">
@@ -666,14 +666,14 @@ function Ticketing() {
                 </div>
                 <div className="role">Advocacy</div>
                 <div className="name">Members who bring people</div>
-                <p className="desc">The goal is fewer one-time tickets and more long-term advocates — people who think of Clovelly as theirs.</p>
+                <p className="desc">The goal is fewer one-time tickets and more long-term advocates: people who think of Clovelly as theirs.</p>
               </div>
             </div>
 
             <div className="diagram__detail">
               <span className="diagram__detail-tag">Approach</span>
               <p className="diagram__detail-text">
-                <strong>Single-click access</strong> to digital perks, persisted across sessions, expiring cleanly with the membership. No extra accounts for visitors. The same pattern can power <strong>any future member benefit</strong> — archive video, a gardener's diary, seasonal newsletters.
+                <strong>Single-click access</strong> to digital perks, persisted across sessions, expiring cleanly with the membership. No extra accounts for visitors. The same pattern can power <strong>any future member benefit</strong>: archive video, a gardener's diary, seasonal newsletters.
               </p>
             </div>
           </div>
@@ -825,10 +825,10 @@ function JournalPage({ index, current, total, data }) {
           <div className="paper__lines" aria-hidden="true"></div>
           <div className="paper__handwritten paper__handwritten--end">
             <p>That's the brief.</p>
-            <p>Happy to come down to the Estate office and walk through any of it — I'm probably already in the village.</p>
-            <p className="sig">— H.T.</p>
+            <p>Happy to come down to the Estate office and walk through any of it. I'm probably already in the village.</p>
+            <p className="sig">H.T.</p>
           </div>
-          <div className="paper__page-num">— end —</div>
+          <div className="paper__page-num">end</div>
         </div>
         <div className="journal__page-back paper-back"></div>
       </div>
@@ -867,7 +867,7 @@ function Contact() {
         <div className="contact__copy">
           <h2>I'd love to talk it <em>through</em>.</h2>
           <p className="contact__lede">
-            Happy to come to the Estate office, the Red Lion, or somewhere in the village — pick a morning.
+            Happy to come to the Estate office, the Red Lion, or somewhere in the village. Pick a morning.
           </p>
         </div>
         <div className="contact__channels">
