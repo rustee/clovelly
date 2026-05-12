@@ -170,10 +170,6 @@ function NavBar() {
   return (
     <nav className={`app-nav ${pinned ? "is-pinned" : ""}`}>
       <a href="#top" className="app-nav__brand">
-        <svg className="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <path d="M12 2 L22 7 L22 17 L12 22 L2 17 L2 7 Z" />
-          <path d="M12 2 L12 22 M2 7 L22 17 M22 7 L2 17" opacity="0.4" />
-        </svg>
         <span className="name">Howard Thomson</span>
       </a>
       <div className="app-nav__links">
@@ -884,7 +880,7 @@ function Contact() {
         <div className="contact__copy">
           <h2>I'd love to talk it <em>through</em>.</h2>
           <p className="contact__lede">
-            Happy to come to the Estate office, the Red Lion, or somewhere in the village — pick a morning, I'm probably already there.
+            Happy to come to the Estate office, the Red Lion, or somewhere in the village — pick a morning.
           </p>
         </div>
         <div className="contact__channels">
@@ -904,7 +900,6 @@ function Contact() {
       </div>
       <div className="contact__inner contact__sig">
         <span>Howard Thomson · Devon · 2026</span>
-        <span>Made with respect for the village.</span>
       </div>
     </section>
   );
