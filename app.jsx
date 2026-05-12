@@ -130,7 +130,7 @@ const PLANS = [
     tag: "Membership",
     title: "Memberships that earn frequent visits.",
     body: [
-      "Annual membership today gets unlimited entry. There's room to do more for the people who actually return. Behind-the-scenes evenings with the gardeners, early-morning harbour access before the village opens, exclusive webcam feeds (already integrated), printed seasonal newsletters from the estate.",
+      "Annual membership today gets unlimited entry. There's room to do more for the people who actually return. Behind-the-scenes evenings with the gardeners, exclusive webcam feeds (already integrated), printed seasonal newsletters from the estate.",
       "The goal is fewer one-time tickets and more long-term advocates — visitors who see Clovelly as theirs, and bring people."
     ],
     pull: "Fewer one-time tickets. More long-term advocates."
@@ -665,7 +665,7 @@ function Ticketing() {
                 </div>
                 <div className="role">Perks</div>
                 <div className="name">Member-only experiences</div>
-                <p className="desc">Early harbour access, behind-the-scenes evenings, printed seasonal newsletters, exclusive live feeds — perks that feel earned.</p>
+                <p className="desc">Behind-the-scenes evenings, printed seasonal newsletters, exclusive live feeds — perks that feel earned.</p>
               </div>
 
               <div className="diagram__step">
