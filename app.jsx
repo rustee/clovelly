@@ -29,6 +29,17 @@ const REELS = [
     ],
   },
   {
+    url: "https://www.instagram.com/reel/Cs_ssdZOiE4/",
+    handle: "@howardthomson",
+    caption: "Mermaid watching in Clovelly 🧜🏼‍♀️",
+    fullCaption: `Mermaid watching in Clovelly 🧜🏼‍♀️(@bysha_k)
+
+#clovelly #northdevon #devon #wildswimming`,
+    cover: "uploads/Cs_ssdZOiE4.jpg",
+    video: "uploads/Cs_ssdZOiE4.mp4",
+    comments: [],
+  },
+  {
     url: "https://www.instagram.com/howardthomson/reel/C_VqOnnskgM/",
     handle: "@howardthomson",
     caption: "Happiness ⛵️",
@@ -496,7 +507,7 @@ function ReelsCarousel() {
                 <div className="lbl">Avg start time</div>
               </div>
               <div className="reels__stat">
-                <div className="num">5</div>
+                <div className="num">6</div>
                 <div className="lbl">Reels shown</div>
               </div>
             </div>
