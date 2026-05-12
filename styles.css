@@ -5,7 +5,7 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
-body { background: var(--cream); color: var(--ink); font-family: var(--font-serif); overflow-x: hidden; }
+body { background: var(--cream); color: var(--ink); font-family: var(--font-serif); }
 
 img { max-width: 100%; display: block; }
 button { font: inherit; cursor: pointer; }
@@ -256,7 +256,9 @@ button { font: inherit; cursor: pointer; }
   max-width: 1280px; margin: 0 auto;
   padding: 128px 48px;
   position: relative;
+  overflow-x: hidden;
 }
+.section--inverse, .section--bts { overflow-x: visible; }
 .section__head { display: grid; grid-template-columns: 280px 1fr; gap: 64px; margin-bottom: 56px; align-items: end; }
 .section__head .label {
   font-family: var(--font-sans); font-size: 11px; letter-spacing: 0.22em;
@@ -430,8 +432,11 @@ button { font: inherit; cursor: pointer; }
   position: relative;
   perspective: 2000px;
   height: 640px;
+  padding: 80px 0;
+  box-sizing: content-box;
   display: flex; align-items: center; justify-content: center;
   touch-action: pan-y;
+  overflow: visible;
 }
 .phone {
   position: absolute;
