@@ -480,7 +480,7 @@ function ReelsCarousel() {
               I'm often in Clovelly before the village wakes — quiet light, no crowds, the donkeys still in their stable.
             </p>
             <p>
-              These are five recent reels I've shot, edited and posted for the @howardthomson Instagram. The thumbnails here link out to the originals.
+              These are five recent reels I've shot, edited and posted for my personal Instagram. The thumbnails here link out to the originals.
             </p>
             <p>
               I treat content as a programme, not a one-off — a regular, low-fuss rhythm of pieces shot in the village by someone who is in the village.
