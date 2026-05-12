@@ -938,8 +938,8 @@ function App() {
       <NavBar />
       <Hero variant={t.heroVariant} photo={t.heroPhoto} />
       <About />
-      <BehindTheScenes />
       <ReelsCarousel />
+      <BehindTheScenes />
       <Ticketing />
       <Plans layout={t.plansLayout} />
       <Contact />
