@@ -115,7 +115,6 @@ const PLANS = [
       "The Clovelly and Red Lion sites are several years old. Working at Panoptic, I've already maintained them — so a refresh in-house, in a phased rollout, is well within reach. No agency contract, no rebuild from scratch.",
       "The aim is editorial pacing, full-bleed photography, faster booking flows, and a content layer that finally puts the village's own storytelling at the centre. Built once, kept current quarterly."
     ],
-    pull: "Editorial pacing, faster booking, and a content layer that puts the village at the centre."
   },
   {
     tag: "Membership",
@@ -124,7 +123,6 @@ const PLANS = [
       "Annual membership today gets unlimited entry. There's room to do more for the people who actually return. Behind-the-scenes evenings with the gardeners, exclusive webcam feeds (already integrated), printed seasonal newsletters from the estate.",
       "The goal is fewer one-time tickets and more long-term advocates — visitors who see Clovelly as theirs, and bring people."
     ],
-    pull: "Fewer one-time tickets. More long-term advocates."
   },
   {
     tag: "Content & Social",
@@ -133,7 +131,6 @@ const PLANS = [
       "I'm already producing reels at sunrise. The next step is treating that as a programme — a publishing rhythm, a small library of evergreen pieces, and seasonal campaigns timed to gardens, festivals, and weather. Reels remain the lead format, but with newsletter, blog and printed counterparts.",
       "Most importantly: shot in the village, by someone who is in the village, with no stock photography between the audience and the place."
     ],
-    pull: "Shot in the village, by someone who is in the village."
   }
 ];
 
@@ -697,9 +694,6 @@ function Plans({ layout }) {
             </header>
             <div className="plan__body">
               {p.body.map((para, j) => <p key={j}>{para}</p>)}
-              {p.pull && layout !== "essay" && (
-                <div className="plan__pull">{p.pull}</div>
-              )}
             </div>
           </article>
         ))}
@@ -850,12 +844,6 @@ function JournalPage({ index, current, total, data }) {
         <div className="paper__body">
           {data.body.map((para, j) => <p key={j}>{para}</p>)}
         </div>
-        {data.pull && (
-          <div className="paper__pull">
-            <span className="paper__pull-mark">★</span>
-            <span>{data.pull}</span>
-          </div>
-        )}
         <div className="paper__page-num">p. {planIndex * 12}</div>
       </div>
       <div className="journal__page-back paper-back"></div>
