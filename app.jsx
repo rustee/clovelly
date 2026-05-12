@@ -19,7 +19,7 @@ const REELS = [
     caption: "After You 🖤",
     fullCaption: "After You 🖤",
     cover: "uploads/DXs8_UoCG4-.jpg",
-    video: "uploads/DXs8_UoCG4-.mp4",
+    video: "uploads/DXs8_UoCG4--h264.mp4",
     comments: [
       { author: "thisisjules",          text: "Gosh this stopped me in my tracks ❤️" },
       { author: "paulwordsmith",        text: "Wow this reminds me of Synechdoche, New York. Really emotive" },
