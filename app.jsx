@@ -339,24 +339,26 @@ function About() {
           </div>
         </div>
 
-        <div className="about__col reveal">
-          <div className="about__pull">
-            <blockquote>
-              "I already do most of this work. I'd like to do it on purpose, with a brief, and as part of the team."
-            </blockquote>
-            <div className="about__pull-meta">— On the role</div>
-          </div>
-          <div className="about__stats">
-            <div className="about__stat">
-              <div className="num">06:14</div>
-              <div className="lbl">Average shoot start</div>
-            </div>
-            <div className="about__stat">
-              <div className="num">2</div>
-              <div className="lbl">Sites I maintain</div>
-            </div>
-          </div>
+        <div className="about__col about__col--photo reveal">
+          <img className="about__photo" src="uploads/boats.jpg" alt="Clovelly harbour at dawn" />
         </div>
+      </div>
+    </section>
+  );
+}
+
+/* ============================ BEHIND THE SCENES ============================ */
+function BehindTheScenes() {
+  return (
+    <section className="section section--bts">
+      <div className="section__head reveal">
+        <div className="label">Behind the lens</div>
+        <h2>Early mornings <em>in the village.</em></h2>
+      </div>
+      <div className="bts__grid reveal-child">
+        <img className="bts__photo" src="uploads/bts-1.jpg" alt="Camera set up at Clovelly harbour" />
+        <img className="bts__photo" src="uploads/bts-2.jpg" alt="Filming through the cobbled archway" />
+        <img className="bts__photo" src="uploads/bts-3.jpg" alt="On location in the village" />
       </div>
     </section>
   );
@@ -941,6 +943,7 @@ function App() {
       <NavBar />
       <Hero variant={t.heroVariant} photo={t.heroPhoto} />
       <About />
+      <BehindTheScenes />
       <ReelsCarousel />
       <Ticketing />
       <Plans layout={t.plansLayout} />

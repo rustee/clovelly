@@ -360,6 +360,30 @@ button { font: inherit; cursor: pointer; }
 }
 
 /* ======================================================================
+   About — photo column
+====================================================================== */
+.about__col--photo { display: flex; align-items: stretch; }
+.about__photo {
+  width: 100%; min-height: 520px;
+  object-fit: cover; object-position: center;
+  display: block;
+}
+
+/* ======================================================================
+   Behind the scenes
+====================================================================== */
+.section--bts { background: var(--paper); }
+.bts__grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 12px; margin-top: 48px;
+}
+.bts__photo {
+  width: 100%; aspect-ratio: 3/4;
+  object-fit: cover; object-position: center;
+  display: block;
+}
+
+/* ======================================================================
    Reels carousel
 ====================================================================== */
 .reels {
@@ -1111,6 +1135,8 @@ button { font: inherit; cursor: pointer; }
   .hero__inner, .about__grid, .reels, .ticketing__body, .contact__inner {
     grid-template-columns: 1fr; gap: 32px;
   }
+  .about__photo { min-height: 300px; }
+  .bts__grid { grid-template-columns: 1fr; gap: 8px; }
   .reels__stage { height: 540px; }
   .section { padding: 96px 32px; }
   .hero { padding: 0 32px 64px; }
