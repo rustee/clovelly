@@ -306,18 +306,15 @@ function About() {
       </div>
       <div className="about__grid">
         <div className="about__col reveal">
-          <p className="about__lede">
-            I currently work for <em>Panoptic</em> as a web developer and photographer/filmmaker.
-          </p>
           <div className="about__body">
             <p>
-              In addition to building and maintaining the current Clovelly and Red Lion Hotel websites, I also visit the village frequently — particularly at sunrise — to capture content for social media.
+              When a friend sent me the link to your marketing role, they said "this is a bit of you". I wasn't looking for a new role, but they were right. They knew I built the current Clovelly and Red Lion websites, how I make my way back to the village every few weeks to film social content, and the experience I have working with events.
             </p>
             <p>
-              Events sit in the same territory. At Panoptic I've worked the full arc — initial planning and supplier briefings through to on-the-day logistics, attendee management, and post-event write-ups. It's the part of marketing where the detail either holds or it doesn't.
+              Many of the estate team will know me from my work at Panoptic, the agency that looks after your websites, integrates your memberships with Donkey webcams and produces the film and photo content from your event calendar. Equally, many in the village know me from my personal Instagram, to the point that I get DMs when a drone is flying in the village, because they assume it'll be me.
             </p>
             <p>
-              That combination is, I think, the unusual part. I write the code that runs your booking flows, I shoot the reels that fill your Instagram feed, and I know how to run a field day without losing a supplier. I know what's on your CMS, I know what the village looks like at 06:14 in May, and I know what questions you'll be asked on the morning of an event.
+              When I saw the role, I simply had to find out more. This page is a brief overview of some of the content that I've personally produced in and around the village, along with some ideas for how the estate can better leverage digital platforms to increase visitor numbers and revenue.
             </p>
           </div>
           <div className="about__credits">
