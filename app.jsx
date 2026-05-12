@@ -109,15 +109,6 @@ One of my favourite stretches of coastline, just North of the border between Dev
 
 const PLANS = [
   {
-    tag: "Events",
-    title: "Events worth coming back for.",
-    body: [
-      "Clovelly already draws people in spring and summer — the question is what pulls them back, and how to spread that across the year. A small, well-timed events programme — a winter lantern evening, a summer open-garden session, an autumn harvest from the estate — gives the calendar shape and the social feed something to build towards.",
-      "Each event is also content: the setup, the light, the faces of the people who come. Shot well, a single evening can supply a fortnight of material. The planning side — logistics, suppliers, attendee management, post-event reporting — is something I've done at Panoptic across festivals and private events, and I'd bring that same operational grounding here."
-    ],
-    pull: "Well-timed events give the calendar shape — and the social feed something to build towards."
-  },
-  {
     tag: "Digital Refresh",
     title: "A measured refresh of the websites.",
     body: [
@@ -139,7 +130,7 @@ const PLANS = [
     tag: "Content & Social",
     title: "A weekly rhythm of village content.",
     body: [
-      "I'm already producing reels at sunrise. The next step is treating that as a programme, not a hobby — a publishing rhythm, a small library of evergreen pieces, and seasonal campaigns timed to gardens, festivals, and weather. Reels remain the lead format, but with newsletter, blog and printed counterparts.",
+      "I'm already producing reels at sunrise. The next step is treating that as a programme — a publishing rhythm, a small library of evergreen pieces, and seasonal campaigns timed to gardens, festivals, and weather. Reels remain the lead format, but with newsletter, blog and printed counterparts.",
       "Most importantly: shot in the village, by someone who is in the village, with no stock photography between the audience and the place."
     ],
     pull: "Shot in the village, by someone who is in the village."
