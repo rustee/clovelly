@@ -431,7 +431,6 @@ button { font: inherit; cursor: pointer; }
   perspective: 2000px;
   height: 640px;
   display: flex; align-items: center; justify-content: center;
-  overflow: hidden;
   touch-action: pan-y;
 }
 .phone {
