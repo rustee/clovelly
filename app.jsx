@@ -139,8 +139,7 @@ const PLANS = [
     tag: "Content & Social",
     title: "A weekly rhythm of village content.",
     body: [
-      "I'm already producing reels at sunrise. The next step is treating that as a programme: a publishing rhythm, a small library of evergreen pieces, and seasonal campaigns timed to gardens, festivals, and weather. Reels remain the lead format, but with newsletter, blog and printed counterparts.",
-      "Most importantly: shot in the village, by someone who is in the village, with no stock photography between the audience and the place."
+      "I'm already producing reels at sunrise. The next step is treating that as a programme: a publishing rhythm, a small library of evergreen pieces, and seasonal campaigns timed to gardens, festivals, and weather. Reels remain the lead format, but with newsletter, blog and printed counterparts."
     ],
   }
 ];
