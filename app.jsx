@@ -325,8 +325,8 @@ function About() {
             </div>
             <div className="about__credit">
               <div className="label">Working with Clovelly</div>
-              <div className="value">3+ years</div>
-              <div className="meta">Site, social, events</div>
+              <div className="value">8+ years</div>
+              <div className="meta">Website &amp; Content</div>
             </div>
           </div>
         </div>
@@ -488,7 +488,7 @@ function ReelsCarousel() {
               These are six recent reels I've shot, edited and posted for my personal Instagram. The thumbnails here link out to the originals.
             </p>
             <p>
-              I treat content as a programme, not a one-off. A regular, low-fuss rhythm of pieces shot in the village by someone who is in the village.
+              I have all my own filmmaking and photography kit, including Sony mirrorless cameras and DJI drones. I am also a fully qualified drone pilot with the UK CAA (GVC).
             </p>
             <a href="https://www.instagram.com/howardthomson/" target="_blank" rel="noopener" className="reels__handle">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
