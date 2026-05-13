@@ -225,7 +225,7 @@ function Hero({ variant, photo }) {
       <section ref={ref} className="hero hero--quiet" id="top">
         <div className="hero__inner">
           <div className="hero__copy">
-            <div className="hero__eyebrow">Application · Marketing &amp; Events Co-ordinator</div>
+            <div className="hero__eyebrow">Marketing &amp; Events Co-ordinator</div>
             <h1>
               Howard <span className="accent">Thomson</span>
               <br/>for Clovelly.
@@ -267,7 +267,7 @@ function Hero({ variant, photo }) {
       </div>
       <div className="hero__inner">
         <div className="hero__copy">
-          <div className="hero__eyebrow">Application · Marketing &amp; Events Co-ordinator</div>
+          <div className="hero__eyebrow">Marketing &amp; Events Co-ordinator</div>
           <h1>
             Howard Thomson
           </h1>
@@ -485,7 +485,7 @@ function ReelsCarousel() {
               I'm often in Clovelly before the village wakes: quiet light, no crowds, the donkeys still in their stable.
             </p>
             <p>
-              These are five recent reels I've shot, edited and posted for my personal Instagram. The thumbnails here link out to the originals.
+              These are six recent reels I've shot, edited and posted for my personal Instagram. The thumbnails here link out to the originals.
             </p>
             <p>
               I treat content as a programme, not a one-off. A regular, low-fuss rhythm of pieces shot in the village by someone who is in the village.
@@ -921,7 +921,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div id="page">
       <NavBar />
       <Hero variant={t.heroVariant} photo={t.heroPhoto} />
       <About />
@@ -970,7 +970,7 @@ function App() {
           />
         </TweakSection>
       </TweaksPanel>
-    </>
+    </div>
   );
 }
 
